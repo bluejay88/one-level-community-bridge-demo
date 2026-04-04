@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120" fill="none">
+  <rect width="320" height="120" rx="24" fill="#F9FFF6" />
+  <circle cx="62" cy="60" r="38" fill="#E9F7EA" />
+  <path d="M60 34C45 43 40 64 48 81C57 76 64 66 64 54V34H60Z" fill="#3BB24B" />
+  <path d="M72 40L60 70H84L72 40Z" fill="#2F6FD1" />
+  <path d="M72 49L82 70H92L78 42L72 49Z" fill="#F0A81F" />
+  <text x="112" y="50" fill="#2A7F38" font-family="Sora, Arial, sans-serif" font-size="26" font-weight="700">Clean Energy</text>
+  <text x="112" y="78" fill="#174C7C" font-family="Sora, Arial, sans-serif" font-size="22" font-weight="700">Careers</text>
+  <text x="112" y="100" fill="#5F6F62" font-family="Manrope, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">RICHLAND COMMUNITY COLLEGE</text>
+</svg>
