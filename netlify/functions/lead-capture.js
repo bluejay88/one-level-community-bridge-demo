@@ -21,8 +21,16 @@ exports.handler = async (event) => {
 
   if (!targetUrl) {
     return {
-      statusCode: 500,
-      body: JSON.stringify({ ok: false, error: "GOOGLE_APPS_SCRIPT_URL is not configured." }),
+      statusCode: 200,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ok: true,
+        demoMode: true,
+        message: "Lead captured in demo mode. Connect GOOGLE_APPS_SCRIPT_URL to route submissions to Google Sheets and Forms.",
+        receivedAt: new Date().toISOString(),
+      }),
     };
   }
 
